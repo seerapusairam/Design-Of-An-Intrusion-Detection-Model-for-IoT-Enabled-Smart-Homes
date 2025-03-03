@@ -10,3 +10,9 @@ This project focuses on developing an **Intrusion Detection System (IDS)** using
 - **Machine Learning Models**: Random Forest, SVM.  
 - **Deep Learning Models**: LSTM, CNN-2D (best performer).  
 - **Evaluation Metrics**: Accuracy, Precision, Recall, F1-score.  
+
+## 🔧 Installation & Setup  
+1. **Clone the repository**  
+   ```sh
+   git clone https://github.com/your-username/intrusion-detection-iot.git  
+   cd intrusion-detection-iot
