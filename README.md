@@ -11,6 +11,18 @@ This project focuses on developing an **Intrusion Detection System (IDS)** using
 - **Deep Learning Models**: LSTM, CNN-2D (best performer).  
 - **Evaluation Metrics**: Accuracy, Precision, Recall, F1-score.  
 
+## 📁 Folder Structure
+
+```
+📦IoT-IDS-ML-DL
+ ┣ 📁Dataset
+ ┣ 📁model
+ ┣ 📄main.py
+ ┣ 📄predict.py
+ ┣ 📄README.md
+ ┗ 📄requirements.txt
+```
+
 ## 🔧 Installation & Setup  
 1. **Clone the repository**  
    ```sh
@@ -49,3 +61,14 @@ Trained models are automatically saved under the `/model` directory:
 - `lstm_weights.hdf5`
 
 If these files exist, they will be loaded instead of retraining.
+
+## 🤝 Contributors
+
+- **Sai Rohit Kumar Yedla - Y00867742**  
+- **Naga Sai Shivani Datla - Y00860597** 
+- **Sairam Seerapu - Y00872154** 
+- Faculty Guide: **Robert A. Gilliland, PhD**
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
