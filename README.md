@@ -14,5 +14,38 @@ This project focuses on developing an **Intrusion Detection System (IDS)** using
 ## 🔧 Installation & Setup  
 1. **Clone the repository**  
    ```sh
-   git clone https://github.com/your-username/intrusion-detection-iot.git  
-   cd intrusion-detection-iot
+   git clone https://github.com/seerapusairam/Intrusion-Detection-Model-for-IoT-Enabled-Smart-Homes.git
+   cd Intrusion-Detection-Model-for-IoT-Enabled-Smart-Homes
+
+2. **Create and activate the conda environment**
+   ```bash
+   conda create -n py37env python=3.7
+   conda activate py37env
+   ```
+
+3. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+
+4. **Launch the Jupyter Notebook**
+   ```bash
+   jupyter notebook IOTIntrusionDetection.ipynb
+   ```
+5. **Run the Notebook**
+
+- Load and preprocess the dataset
+- Train each model
+- Evaluate performance
+- Visualize results
+- Perform prediction on new test data
+
+> All operations are done within the notebook. No separate scripts are needed.
+
+## 📦 Models
+
+Trained models are automatically saved under the `/model` directory:
+
+- `cnn_weights.hdf5`
+- `lstm_weights.hdf5`
+
+If these files exist, they will be loaded instead of retraining.
