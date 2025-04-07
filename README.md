@@ -1,4 +1,4 @@
-# 🛡️ Intrusion Detection Model for IoT-Enabled Smart Homes  
+# 🛡️ Design of an Intrusion Detection System for IoT-Enabled Smart Homes
 
 ## 📌 Project Overview  
 This project focuses on developing an **Intrusion Detection System (IDS)** using **Machine Learning (ML) and Deep Learning (DL)** techniques to identify malicious network traffic in IoT-enabled smart homes. Since IoT devices often lack traditional security solutions, this IDS aims to enhance security by analyzing network packets and detecting potential threats.  
